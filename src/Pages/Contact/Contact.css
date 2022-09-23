@@ -1,0 +1,34 @@
+.contact__container {
+  display: flex;
+  gap: 2rem;
+  margin-inline: 20%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.input__field {
+  padding: 1rem;
+}
+.btn__send {
+  width: 5rem;
+  background-color: var(--dark);
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 20em;
+  cursor: pointer;
+}
+
+.map-styling {
+  border: 1px solid var(--lookBook-bg);
+  border-radius: 0.5em;
+  width: 30vw;
+  height: 40vh;
+}
